@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data - keep large/generated/real datasets out of git
+data/*.csv
+!data/samples/sample_login_logs.csv
+data/cert_raw/
+data/cert_canonical.csv
+*.tar.bz2
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
